@@ -13,12 +13,7 @@ const Dashboard = () => {
   return (
     <div className="vh-100">
       <Navbar />
-
-      <Switch>
-        <Route path={`${url}/overview`} component={Overview} exact />
-        <Route path={`${url}/lending-market`} component={LendingMarket} exact />
-        {/* <Route path={`${url}/patients/:id`} component={PatientProfile} /> */}
-      </Switch>
+      <Overview />
       <Footer />
     </div>
   );
