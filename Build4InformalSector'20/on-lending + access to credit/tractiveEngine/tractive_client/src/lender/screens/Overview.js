@@ -128,9 +128,9 @@ function Overview({
                     </div>
                   </div>
 
-                  <div className="invest-button">
+                  <Link to="view-campaign/2" className="invest-button">
                     <button className="btn btn-primary">Invest Now</button>
-                  </div>
+                  </Link>
                 </div>
               );
             })}
