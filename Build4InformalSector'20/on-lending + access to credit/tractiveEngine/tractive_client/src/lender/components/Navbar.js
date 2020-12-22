@@ -1,14 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
+import Logo from "../../assets/logo.png";
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
       <div className="nav-container container-fluid">
-        <a class="navbar-brand" href="#">
-          FundMyFarm
-        </a>
+        <Link class="navbar-brand" to="/lender/overview">
+          <img src={Logo} alt="Fundmyfarm logo" />
+        </Link>
         <button
           class="navbar-toggler"
           type="button"

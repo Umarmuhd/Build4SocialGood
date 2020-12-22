@@ -7,10 +7,9 @@ import "./PaymentPage.css";
 const campaignInfo = {
   name: "Musa Haruna",
   loanAmount: 30000,
-  campaignPicture:
-    "https://farmpartner.ng/storage/uploads/images/rice-farm2.jpg",
+  campaignPicture: "",
   dateCreated: "15-09-2020",
-  campaignerPicture: "https://google.com",
+  campaignerPicture: "",
   repaymentPeriod: 7,
 };
 

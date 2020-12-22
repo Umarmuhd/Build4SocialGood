@@ -88,7 +88,7 @@ function Overview({
         <div className="campaign-list">
           <p className="section-name">
             Campaingn available for investing.
-            <Link to="/campaigns">View More </Link>
+            <Link to="/lender/lending-market">View More </Link>
           </p>
           <div className="campaigns-container d-flex justify-content-between mb-5">
             {campaignData.map((campaign, index) => {
@@ -104,7 +104,7 @@ function Overview({
                     </div>
                   </div>
                   <p className="loan-amount">
-                    <b>Loan amount: N {campaign.loanAmount}</b>
+                    <b>Loan amount: ₦ {campaign.loanAmount}</b>
                   </p>
 
                   <div className="loan-progress mb-4">
